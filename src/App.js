@@ -3,6 +3,7 @@ import { useRoutes } from "react-router-dom";
 import Reviews from "./pages/Reviews";
 import ContactUs from "./pages/Contact";
 import Home from "./pages/Home";
+import Services from "./pages/Services"
 
 function App() {
   const element = useRoutes([
@@ -21,6 +22,10 @@ function App() {
     {
       path: '/',
       element: <Home to="home" />,
+    },
+    {
+      path: '/services',
+      element: <Services to="services" />,
     },
   ]);
 

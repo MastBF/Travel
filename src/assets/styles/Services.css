@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.middle-part-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    font-family: 'Montserrat'
+}
+
+.services{
+    height: 110vh;
+}
+
+.country {
+    display: flex;
+}
+
+.country .offer {
+    margin: 20px;
+    width: 300px;
+}
+.country .offer p {
+    width: 250px;
+}
+
+.country .offer img {
+    height: 300px;
+    width: 241px;
+}
+
+.offer h3 {
+    font-family: 'Montserrat';
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.offer h2 {
+    font-family: 'Montserrat';
+font-size: 16px;
+font-weight: 700;
+}
+
+.offer .p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #737373;
+    font-weight:400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.offer .price {
+   font-weight: 700;
+   font-size: 12px;
+   font-family: 'Montserrat';
+    color: #A4A4A4;
+    margin-top: 30px;
+}
+
+.offer .price b {
+    font-size: 17px;
+    color: #40BB15;
+}
